@@ -19,5 +19,5 @@ public class AustralianDollar implements ConvertableCurrency {
     public CurrencyType getTypeOfCurrency() {
         return this.currencyType;
     }
-    
+
 }

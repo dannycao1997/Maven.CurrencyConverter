@@ -4,5 +4,5 @@ public interface ConvertableCurrency {
     default Double convert(CurrencyType currencyType) {
         return Double.MAX_VALUE;
     }
-    CurrencyType getTypeOfCurrency(); // added getTypeOfCurrency
+    CurrencyType getTypeOfCurrency(); // added code for getTypeOfCurrency
 }
